@@ -80,7 +80,7 @@
       "strategyName": "Verified Catalyst & Volume Impulse",
       "strategyShort": "News Impulse",
       "entryPrice": 2216.98,
-      "currentPrice": 2223.12,
+      "currentPrice": 2223.09,
       "quantity": 0.373,
       "positionSizeUsd": 826.88,
       "margin": 275.63,
@@ -105,7 +105,7 @@
         "sentiment": "BEARISH",
         "impactScore": 10
       },
-      "unrealizedPnl": -2.29,
+      "unrealizedPnl": -2.28,
       "pnlPercent": -0.83,
       "openedAt": 1793319763726
     }
@@ -4417,6 +4417,54 @@
   ],
   "whales": [
     {
+      "id": "whale_1793321678210jbng",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77277.19,
+      "qty": 0.3061,
+      "totalUsd": 23655,
+      "time": 1793321678093,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793321678206kpyk",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77277.19,
+      "qty": 0.9097,
+      "totalUsd": 70299,
+      "time": 1793321678089,
+      "isWhale": true
+    },
+    {
+      "id": "whale_17933216776951x35",
+      "symbol": "BTCUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 77289.14,
+      "qty": 0.6278,
+      "totalUsd": 48521,
+      "time": 1793321677578,
+      "isWhale": false
+    },
+    {
+      "id": "whale_179332167728809tp",
+      "symbol": "ETHUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 2223.08,
+      "qty": 7.9854,
+      "totalUsd": 17752,
+      "time": 1793321677172,
+      "isWhale": false
+    },
+    {
       "id": "whale_179332167636381t1",
       "symbol": "SOLUSDT",
       "side": "LONG_LIQ",
@@ -6171,54 +6219,6 @@
       "totalUsd": 16176,
       "time": 1793321614903,
       "isWhale": false
-    },
-    {
-      "id": "whale_17933216150310p9k",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77300,
-      "qty": 1.0502,
-      "totalUsd": 81184,
-      "time": 1793321614903,
-      "isWhale": true
-    },
-    {
-      "id": "whale_1793321614901dcsa",
-      "symbol": "ETHUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 2223.58,
-      "qty": 8.803,
-      "totalUsd": 19574,
-      "time": 1793321614786,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793321614740lp50",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77289.64,
-      "qty": 0.1421,
-      "totalUsd": 10987,
-      "time": 1793321614623,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793321613839gxdd",
-      "symbol": "SOLUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 94.9,
-      "qty": 180,
-      "totalUsd": 17082,
-      "time": 1793321613529,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -6286,11 +6286,11 @@
   "telemetry": {
     "totalScans": 1939,
     "totalNewsChecked": 166,
-    "totalWhalesProcessed": 19519,
+    "totalWhalesProcessed": 19523,
     "totalCandlesAnalyzed": 41200,
     "totalPostMortems": 50,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793321677121
+    "cloudSavedAt": 1793321678530
   },
   "performance": {
     "totalTrades": 50,
