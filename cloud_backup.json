@@ -8,6 +8,38 @@
   },
   "positions": [
     {
+      "id": "pos_1793320867837hm4",
+      "symbol": "BTCUSDT",
+      "type": "SHORT",
+      "signalSource": "MTF_TECH",
+      "strategyId": "VWAP_TREND_PULLBACK",
+      "strategyName": "Institutional VWAP + EMA21 Pullback",
+      "strategyShort": "VWAP Pullback",
+      "entryPrice": 77246.66,
+      "currentPrice": 77253.08,
+      "quantity": 0.0106,
+      "positionSizeUsd": 820.64,
+      "margin": 273.55,
+      "sizeMultiplier": 1.36,
+      "oneRPercent": 2.25,
+      "rrTarget": 2.4,
+      "profitLockRoi": 2.14,
+      "capitalMode": "PROFIT_COMPOUNDING",
+      "leverage": 3,
+      "stopLoss": 77826.01,
+      "takeProfit": 75856.22,
+      "breakEvenMoved": false,
+      "trailingActive": false,
+      "peakPnlPercent": 0,
+      "confidence": 98,
+      "rsi": 46.1,
+      "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($77369.47) v skladu z medvedjo 15m/1h strukturo.",
+      "catalyst": null,
+      "unrealizedPnl": -0.07,
+      "pnlPercent": -0.02,
+      "openedAt": 1793320867837
+    },
+    {
       "id": "pos_1793320747836h57",
       "symbol": "XRPUSDT",
       "type": "SHORT",
@@ -16,7 +48,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 1.2164,
-      "currentPrice": 1.216,
+      "currentPrice": 1.2161,
       "quantity": 724.2541,
       "positionSizeUsd": 880.98,
       "margin": 293.66,
@@ -35,8 +67,8 @@
       "rsi": 46.7,
       "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($1.2184) v skladu z medvedjo 15m/1h strukturo.",
       "catalyst": null,
-      "unrealizedPnl": 0.29,
-      "pnlPercent": 0.1,
+      "unrealizedPnl": 0.22,
+      "pnlPercent": 0.07,
       "openedAt": 1793320747836
     },
     {
@@ -48,7 +80,7 @@
       "strategyName": "Verified Catalyst & Volume Impulse",
       "strategyShort": "News Impulse",
       "entryPrice": 2216.98,
-      "currentPrice": 2214.8,
+      "currentPrice": 2214.6,
       "quantity": 0.373,
       "positionSizeUsd": 826.88,
       "margin": 275.63,
@@ -73,8 +105,8 @@
         "sentiment": "BEARISH",
         "impactScore": 10
       },
-      "unrealizedPnl": 0.81,
-      "pnlPercent": 0.29,
+      "unrealizedPnl": 0.89,
+      "pnlPercent": 0.32,
       "openedAt": 1793319763726
     }
   ],
@@ -4284,6 +4316,66 @@
   ],
   "whales": [
     {
+      "id": "whale_1793320870335ywk5",
+      "symbol": "BTCUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 77222.22,
+      "qty": 0.1507,
+      "totalUsd": 11634,
+      "time": 1793320870142,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793320870239k79j",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2214.46,
+      "qty": 8.2602,
+      "totalUsd": 18292,
+      "time": 1793320870124,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793320869733f5ss",
+      "symbol": "ETHUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 2214.6,
+      "qty": 26.6724,
+      "totalUsd": 59069,
+      "time": 1793320869617,
+      "isWhale": true
+    },
+    {
+      "id": "whale_1793320867419efku",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2214.6,
+      "qty": 11.076,
+      "totalUsd": 24529,
+      "time": 1793320867304,
+      "isWhale": false
+    },
+    {
+      "id": "whale_17933208672771pg9",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77248.5,
+      "qty": 0.1507,
+      "totalUsd": 11641,
+      "time": 1793320867158,
+      "isWhale": false
+    },
+    {
       "id": "whale_1793320866336qv3u",
       "symbol": "SOLUSDT",
       "side": "SHORT_LIQ",
@@ -6030,66 +6122,6 @@
       "timestamp": 1793320755138,
       "time": 1793320755138,
       "rationale": "Liquidation Cascade: $171k of LONG_LIQ wiped out (11 orders). High-probability setup."
-    },
-    {
-      "id": "whale_1793320755135x542",
-      "symbol": "NEARUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 3.961,
-      "qty": 3039.9,
-      "totalUsd": 12041,
-      "time": 1793320755018,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793320754498prrh",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "SHORT REKT",
-      "exchange": "OKX",
-      "price": 77441.8,
-      "qty": 0.2651,
-      "totalUsd": 20530,
-      "time": 1793320652275,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793320752851nh3x",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77298.29,
-      "qty": 0.3879,
-      "totalUsd": 29985,
-      "time": 1793320752736,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793320750389lji3",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77300.01,
-      "qty": 0.2137,
-      "totalUsd": 16517,
-      "time": 1793320750274,
-      "isWhale": false
-    },
-    {
-      "id": "whale_17933207490278bse",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2215,
-      "qty": 8.4529,
-      "totalUsd": 18723,
-      "time": 1793320748890,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -6155,13 +6187,13 @@
     }
   ],
   "telemetry": {
-    "totalScans": 1837,
+    "totalScans": 1838,
     "totalNewsChecked": 164,
-    "totalWhalesProcessed": 17889,
-    "totalCandlesAnalyzed": 37936,
+    "totalWhalesProcessed": 17894,
+    "totalCandlesAnalyzed": 37968,
     "totalPostMortems": 49,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793320867119
+    "cloudSavedAt": 1793320870417
   },
   "performance": {
     "totalTrades": 49,
