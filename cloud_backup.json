@@ -16,7 +16,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 2214.51,
-      "currentPrice": 2214.88,
+      "currentPrice": 2215.13,
       "quantity": 0.3233,
       "positionSizeUsd": 716.03,
       "margin": 238.68,
@@ -35,8 +35,8 @@
       "rsi": 62.6,
       "rationale": "[MACD Divergence] Medvedja RSI divergenca (69 ➔ 63) z obratom MACD momenta navzdol.",
       "catalyst": null,
-      "unrealizedPnl": -0.12,
-      "pnlPercent": -0.05,
+      "unrealizedPnl": -0.2,
+      "pnlPercent": -0.08,
       "openedAt": 1793327252747
     },
     {
@@ -48,7 +48,7 @@
       "strategyName": "SMC Liquidity Sweep & Reclaim",
       "strategyShort": "SMC Sweep",
       "entryPrice": 77238,
-      "currentPrice": 77264.36,
+      "currentPrice": 77272.66,
       "quantity": 0.0106,
       "positionSizeUsd": 818.32,
       "margin": 272.77,
@@ -67,8 +67,8 @@
       "rsi": 67.1,
       "rationale": "[SMC Sweep] SMC Sweep nad vrhom $77259.10 (ujeti pozni kupci) in obrat navzdol [STRONG_BEARISH].",
       "catalyst": null,
-      "unrealizedPnl": -0.28,
-      "pnlPercent": -0.1,
+      "unrealizedPnl": -0.37,
+      "pnlPercent": -0.13,
       "openedAt": 1793327221029
     },
     {
@@ -5168,6 +5168,18 @@
   ],
   "whales": [
     {
+      "id": "whale_1793327255756v09l",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77271.66,
+      "qty": 0.1669,
+      "totalUsd": 12898,
+      "time": 1793327255638,
+      "isWhale": false
+    },
+    {
       "id": "whale_1793327254388acp1",
       "symbol": "ETHUSDT",
       "side": "SHORT_LIQ",
@@ -6962,18 +6974,6 @@
       "totalUsd": 12355,
       "time": 1793327128734,
       "isWhale": false
-    },
-    {
-      "id": "whale_1793327128854s6jm",
-      "symbol": "BTCUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 77216.49,
-      "qty": 0.193,
-      "totalUsd": 14903,
-      "time": 1793327128734,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -7041,11 +7041,11 @@
   "telemetry": {
     "totalScans": 2636,
     "totalNewsChecked": 213,
-    "totalWhalesProcessed": 28706,
+    "totalWhalesProcessed": 28707,
     "totalCandlesAnalyzed": 63504,
     "totalPostMortems": 60,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793327255317
+    "cloudSavedAt": 1793327257219
   },
   "performance": {
     "totalTrades": 60,
