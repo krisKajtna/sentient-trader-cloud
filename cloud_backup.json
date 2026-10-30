@@ -8,6 +8,38 @@
   },
   "positions": [
     {
+      "id": "pos_17933266289350ec",
+      "symbol": "DOGEUSDT",
+      "type": "SHORT",
+      "signalSource": "MTF_TECH",
+      "strategyId": "SMC_LIQUIDITY_SWEEP",
+      "strategyName": "SMC Liquidity Sweep & Reclaim",
+      "strategyShort": "SMC Sweep",
+      "entryPrice": 0.07442,
+      "currentPrice": 0.07442,
+      "quantity": 11485.537,
+      "positionSizeUsd": 854.75,
+      "margin": 284.92,
+      "sizeMultiplier": 1.42,
+      "oneRPercent": 2.25,
+      "rrTarget": 2.5,
+      "profitLockRoi": 2.14,
+      "capitalMode": "PROFIT_COMPOUNDING",
+      "leverage": 3,
+      "stopLoss": 0.07498,
+      "takeProfit": 0.07302,
+      "breakEvenMoved": false,
+      "trailingActive": false,
+      "peakPnlPercent": 0,
+      "confidence": 98,
+      "rsi": 62.3,
+      "rationale": "[SMC Sweep] SMC Sweep nad vrhom $0.0745 (ujeti pozni kupci) in obrat navzdol [STRONG_BEARISH].",
+      "catalyst": null,
+      "unrealizedPnl": 0,
+      "pnlPercent": 0,
+      "openedAt": 1793326628935
+    },
+    {
       "id": "pos_1793324340518qek",
       "symbol": "XRPUSDT",
       "type": "SHORT",
@@ -16,7 +48,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 1.2112,
-      "currentPrice": 1.2155,
+      "currentPrice": 1.2157,
       "quantity": 701.5793,
       "positionSizeUsd": 849.75,
       "margin": 283.25,
@@ -35,8 +67,8 @@
       "rsi": 45.3,
       "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($1.2134) v skladu z medvedjo 15m/1h strukturo.",
       "catalyst": null,
-      "unrealizedPnl": -3.02,
-      "pnlPercent": -1.07,
+      "unrealizedPnl": -3.16,
+      "pnlPercent": -1.11,
       "openedAt": 1793324340518
     },
     {
@@ -48,7 +80,7 @@
       "strategyName": "EMA 9/21/50 Institutional Trend Ribbon",
       "strategyShort": "EMA Ribbon",
       "entryPrice": 701.52,
-      "currentPrice": 708.2,
+      "currentPrice": 709.47,
       "quantity": 0.713,
       "positionSizeUsd": 500.21,
       "margin": 166.74,
@@ -67,8 +99,8 @@
       "rsi": 64.5,
       "rationale": "[EMA Ribbon] Popoln bikovski EMA 9/21/50 trak — vstop na potrjenem odboju od EMA9.",
       "catalyst": null,
-      "unrealizedPnl": 4.76,
-      "pnlPercent": 2.86,
+      "unrealizedPnl": 5.67,
+      "pnlPercent": 3.4,
       "openedAt": 1793324212437
     }
   ],
@@ -4953,6 +4985,42 @@
   ],
   "whales": [
     {
+      "id": "whale_179332663139184uc",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77100.24,
+      "qty": 0.5,
+      "totalUsd": 38550,
+      "time": 1793326631275,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793326630275emzf",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2206.99,
+      "qty": 5.6484,
+      "totalUsd": 12466,
+      "time": 1793326630159,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793326627932bskr",
+      "symbol": "BTCUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 77100.23,
+      "qty": 1.1617,
+      "totalUsd": 89570,
+      "time": 1793326627817,
+      "isWhale": true
+    },
+    {
       "id": "whale_17933266215186r77",
       "symbol": "BTCUSDT",
       "side": "LONG_LIQ",
@@ -6723,43 +6791,6 @@
       "totalUsd": 63145,
       "time": 1793326463210,
       "isWhale": true
-    },
-    {
-      "id": "casc_17933264623229qs",
-      "isCascade": true,
-      "symbol": "ETHUSDT",
-      "type": "BEARISH_EXHAUSTION",
-      "liquidatedSide": "SHORT_LIQ",
-      "totalVolumeUsd": 231017,
-      "totalUsd": 231017,
-      "count": 8,
-      "timestamp": 1793326462322,
-      "time": 1793326462322,
-      "rationale": "Liquidation Cascade: $231k of SHORT_LIQ wiped out (8 orders). High-probability setup."
-    },
-    {
-      "id": "whale_1793326462318v99b",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2203.4,
-      "qty": 6.2569,
-      "totalUsd": 13786,
-      "time": 1793326462199,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793326461203v95l",
-      "symbol": "SOLUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 94.43,
-      "qty": 161.845,
-      "totalUsd": 15283,
-      "time": 1793326461087,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -6825,13 +6856,13 @@
     }
   ],
   "telemetry": {
-    "totalScans": 2557,
+    "totalScans": 2558,
     "totalNewsChecked": 213,
-    "totalWhalesProcessed": 27831,
-    "totalCandlesAnalyzed": 60976,
+    "totalWhalesProcessed": 27834,
+    "totalCandlesAnalyzed": 61008,
     "totalPostMortems": 57,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793326627129
+    "cloudSavedAt": 1793326631439
   },
   "performance": {
     "totalTrades": 57,
