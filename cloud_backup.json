@@ -8,6 +8,38 @@
   },
   "positions": [
     {
+      "id": "pos_1793389745252oso",
+      "symbol": "AVAXUSDT",
+      "type": "LONG",
+      "signalSource": "MTF_TECH",
+      "strategyId": "EMA_RIBBON_MOMENTUM",
+      "strategyName": "EMA 9/21/50 Institutional Trend Ribbon",
+      "strategyShort": "EMA Ribbon",
+      "entryPrice": 8.426,
+      "currentPrice": 8.426,
+      "quantity": 47.7349,
+      "positionSizeUsd": 402.21,
+      "margin": 134.07,
+      "sizeMultiplier": 0.67,
+      "oneRPercent": 2.25,
+      "rrTarget": 2.5,
+      "profitLockRoi": 2.14,
+      "capitalMode": "BALANCED_ADAPTIVE",
+      "leverage": 3,
+      "stopLoss": 8.3628,
+      "takeProfit": 8.584,
+      "breakEvenMoved": false,
+      "trailingActive": false,
+      "peakPnlPercent": 0,
+      "confidence": 92,
+      "rsi": 65.4,
+      "rationale": "[EMA Ribbon] Popoln bikovski EMA 9/21/50 trak — vstop na potrjenem odboju od EMA9.",
+      "catalyst": null,
+      "unrealizedPnl": 0,
+      "pnlPercent": 0,
+      "openedAt": 1793389745252
+    },
+    {
       "id": "pos_1793386624424wbt",
       "symbol": "NEARUSDT",
       "type": "LONG",
@@ -16,7 +48,7 @@
       "strategyName": "Donchian 20-Bar Turtle Structure Breakout",
       "strategyShort": "Donchian 20",
       "entryPrice": 4.289,
-      "currentPrice": 4.33,
+      "currentPrice": 4.328,
       "quantity": 156.8093,
       "positionSizeUsd": 672.56,
       "margin": 224.19,
@@ -35,8 +67,8 @@
       "rsi": 70.4,
       "rationale": "[Donchian 20] Čist Donchian 20-svečni strukturni preboj nad $4.2730 v smeri trenda.",
       "catalyst": null,
-      "unrealizedPnl": 6.43,
-      "pnlPercent": 2.87,
+      "unrealizedPnl": 6.12,
+      "pnlPercent": 2.73,
       "openedAt": 1793386624424
     },
     {
@@ -48,7 +80,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 699.27,
-      "currentPrice": 699.03,
+      "currentPrice": 699.65,
       "quantity": 0.772,
       "positionSizeUsd": 539.83,
       "margin": 179.94,
@@ -67,8 +99,8 @@
       "rsi": 36.2,
       "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($700.84) v skladu z medvedjo 15m/1h strukturo.",
       "catalyst": null,
-      "unrealizedPnl": 0.19,
-      "pnlPercent": 0.1,
+      "unrealizedPnl": -0.29,
+      "pnlPercent": -0.16,
       "openedAt": 1793383471955
     }
   ],
@@ -11339,13 +11371,13 @@
     }
   ],
   "telemetry": {
-    "totalScans": 10445,
+    "totalScans": 10446,
     "totalNewsChecked": 857,
     "totalWhalesProcessed": 77634,
-    "totalCandlesAnalyzed": 313392,
+    "totalCandlesAnalyzed": 313424,
     "totalPostMortems": 105,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793389744126
+    "cloudSavedAt": 1793389747758
   },
   "performance": {
     "totalTrades": 105,
