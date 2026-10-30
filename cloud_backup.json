@@ -16,7 +16,7 @@
       "strategyName": "EMA 9/21/50 Institutional Trend Ribbon",
       "strategyShort": "EMA Ribbon",
       "entryPrice": 8.426,
-      "currentPrice": 8.442,
+      "currentPrice": 8.443,
       "quantity": 47.7349,
       "positionSizeUsd": 402.21,
       "margin": 134.07,
@@ -35,8 +35,8 @@
       "rsi": 65.4,
       "rationale": "[EMA Ribbon] Popoln bikovski EMA 9/21/50 trak — vstop na potrjenem odboju od EMA9.",
       "catalyst": null,
-      "unrealizedPnl": 0.76,
-      "pnlPercent": 0.57,
+      "unrealizedPnl": 0.81,
+      "pnlPercent": 0.61,
       "openedAt": 1793389745252
     },
     {
@@ -80,7 +80,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 699.27,
-      "currentPrice": 700.01,
+      "currentPrice": 700.04,
       "quantity": 0.772,
       "positionSizeUsd": 539.83,
       "margin": 179.94,
@@ -99,8 +99,8 @@
       "rsi": 36.2,
       "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($700.84) v skladu z medvedjo 15m/1h strukturo.",
       "catalyst": null,
-      "unrealizedPnl": -0.57,
-      "pnlPercent": -0.32,
+      "unrealizedPnl": -0.59,
+      "pnlPercent": -0.33,
       "openedAt": 1793383471955
     }
   ],
@@ -11370,13 +11370,13 @@
     }
   ],
   "telemetry": {
-    "totalScans": 10464,
+    "totalScans": 10465,
     "totalNewsChecked": 857,
     "totalWhalesProcessed": 77713,
-    "totalCandlesAnalyzed": 314000,
+    "totalCandlesAnalyzed": 314032,
     "totalPostMortems": 105,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793389897653
+    "cloudSavedAt": 1793389898524
   },
   "performance": {
     "totalTrades": 105,
