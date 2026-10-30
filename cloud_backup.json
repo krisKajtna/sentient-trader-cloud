@@ -16,7 +16,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 703.66,
-      "currentPrice": 703.72,
+      "currentPrice": 703.95,
       "quantity": 0.759,
       "positionSizeUsd": 534.07,
       "margin": 178.02,
@@ -35,8 +35,8 @@
       "rsi": 76.5,
       "rationale": "[MACD Divergence] Medvedja RSI divergenca (80 ➔ 76) z obratom MACD momenta navzdol.",
       "catalyst": null,
-      "unrealizedPnl": -0.05,
-      "pnlPercent": -0.03,
+      "unrealizedPnl": -0.22,
+      "pnlPercent": -0.12,
       "openedAt": 1793373061221
     },
     {
@@ -48,7 +48,7 @@
       "strategyName": "Verified Catalyst & Volume Impulse",
       "strategyShort": "News Impulse",
       "entryPrice": 0.07609,
-      "currentPrice": 0.07628,
+      "currentPrice": 0.07629,
       "quantity": 5128.2975,
       "positionSizeUsd": 390.21,
       "margin": 130.07,
@@ -73,8 +73,8 @@
         "sentiment": "BULLISH",
         "impactScore": 9
       },
-      "unrealizedPnl": 0.97,
-      "pnlPercent": 0.75,
+      "unrealizedPnl": 1.03,
+      "pnlPercent": 0.79,
       "openedAt": 1793372861218
     },
     {
@@ -5829,6 +5829,26 @@
   ],
   "news": [
     {
+      "id": "news_1793373065935amq9",
+      "timestamp": "2026-10-30T15:11:05.935Z",
+      "title": "Top 8 Solana APIs of October 2026",
+      "summary": "Solana APIs are applications, websites, or bots that interact with the Solana blockchain. APIs essentially act as a messenger between software, letting applications ask for data or carry out a process...",
+      "source": "AMBCrypto",
+      "url": "https://ambcrypto.com/top-8-solana-apis-of-october-2026/",
+      "symbols": [
+        "SOLUSDT"
+      ],
+      "sentiment": "NEUTRAL",
+      "bias": 0,
+      "impactScore": 5,
+      "receivedAt": 1793373065935,
+      "publishedAt": 1793373057000,
+      "checkedByAi": true,
+      "aiDecision": "MAX POZICIJ (fokus na odprtih)",
+      "checkedAt": 1793373065946,
+      "triggeredTrade": false
+    },
+    {
       "id": "news_1793372725844hc9d",
       "timestamp": "2026-10-30T15:05:25.844Z",
       "title": "Dogecoin Death Cross Completed: Is This the Right Timing?",
@@ -8869,26 +8889,6 @@
       "aiDecision": "MAX POZICIJ (fokus na odprtih)",
       "checkedAt": 1793325824326,
       "triggeredTrade": false
-    },
-    {
-      "id": "news_1793325664321ittm",
-      "timestamp": "2026-10-30T02:01:04.321Z",
-      "title": "ICE joins hands with Hyperliquid builder to launch U.S. perpetual futures market – Report",
-      "summary": "ICE joins Kraken and Crypto.com in the race to expand perpetual futures access in the U.S.",
-      "source": "AMBCrypto",
-      "url": "https://ambcrypto.com/ice-joins-hands-with-hyperliquid-builder-to-launch-u-s-perpetual-futures-market-report/",
-      "symbols": [
-        "BTCUSDT"
-      ],
-      "sentiment": "BULLISH",
-      "bias": 0.35,
-      "impactScore": 7,
-      "receivedAt": 1793325664320,
-      "publishedAt": 1793325608000,
-      "checkedByAi": true,
-      "aiDecision": "MAX POZICIJ (fokus na odprtih)",
-      "checkedAt": 1793325664324,
-      "triggeredTrade": false
     }
   ],
   "whales": [
@@ -10764,12 +10764,12 @@
   ],
   "telemetry": {
     "totalScans": 8361,
-    "totalNewsChecked": 691,
+    "totalNewsChecked": 692,
     "totalWhalesProcessed": 65343,
     "totalCandlesAnalyzed": 246704,
     "totalPostMortems": 95,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793373063728
+    "cloudSavedAt": 1793373068319
   },
   "performance": {
     "totalTrades": 95,
