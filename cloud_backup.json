@@ -16,7 +16,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 1.2514,
-      "currentPrice": 1.2512,
+      "currentPrice": 1.2514,
       "quantity": 604.6302,
       "positionSizeUsd": 756.63,
       "margin": 252.21,
@@ -35,8 +35,8 @@
       "rsi": 55.4,
       "rationale": "[VWAP Pullback] Umirjen pullback do institucionalnega VWAP/EMA21 območja ($1.2508) v potrjenem MTF trendu.",
       "catalyst": null,
-      "unrealizedPnl": -0.12,
-      "pnlPercent": -0.05,
+      "unrealizedPnl": 0,
+      "pnlPercent": 0,
       "openedAt": 1793375582923
     },
     {
@@ -48,7 +48,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 77986.01,
-      "currentPrice": 77608,
+      "currentPrice": 77608.01,
       "quantity": 0.0071,
       "positionSizeUsd": 552.38,
       "margin": 184.13,
@@ -80,7 +80,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 703.66,
-      "currentPrice": 700.29,
+      "currentPrice": 700.48,
       "quantity": 0.759,
       "positionSizeUsd": 534.07,
       "margin": 178.02,
@@ -99,8 +99,8 @@
       "rsi": 76.5,
       "rationale": "[MACD Divergence] Medvedja RSI divergenca (80 ➔ 76) z obratom MACD momenta navzdol.",
       "catalyst": null,
-      "unrealizedPnl": 2.56,
-      "pnlPercent": 1.44,
+      "unrealizedPnl": 2.41,
+      "pnlPercent": 1.36,
       "openedAt": 1793373061221
     }
   ],
@@ -10953,7 +10953,7 @@
     "totalCandlesAnalyzed": 256784,
     "totalPostMortems": 98,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793375585429
+    "cloudSavedAt": 1793375588323
   },
   "performance": {
     "totalTrades": 98,
