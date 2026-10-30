@@ -46,9 +46,10 @@
       "catalyst": null,
       "unrealizedPnl": -0.55,
       "unsettledPnl": -0.3,
-      "pnlPercent": -0.34,
+      "pnlPercent": -0.33,
       "openedAt": 1793390203867,
-      "lastFundingBucket": 1793376000000
+      "lastFundingBucket": 1793376000000,
+      "liveSpreadBps": 0.8
     },
     {
       "id": "pos_1793389745252oso",
@@ -93,7 +94,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 699.27,
-      "currentPrice": 700.58,
+      "currentPrice": 700.51,
       "quantity": 0.772,
       "positionSizeUsd": 539.83,
       "margin": 179.94,
@@ -112,11 +113,11 @@
       "rsi": 36.2,
       "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($700.84) v skladu z medvedjo 15m/1h strukturo.",
       "catalyst": null,
-      "unrealizedPnl": -1.28,
-      "pnlPercent": -0.71,
+      "unrealizedPnl": -1.23,
+      "pnlPercent": -0.68,
       "openedAt": 1793383471955,
       "liveSpreadBps": 0.14,
-      "unsettledPnl": -1.28
+      "unsettledPnl": -1.23
     }
   ],
   "history": [
@@ -9578,6 +9579,18 @@
   ],
   "whales": [
     {
+      "id": "whale_1793390205659vuy6",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2241.04,
+      "qty": 7.9969,
+      "totalUsd": 17921,
+      "time": 1793390205544,
+      "isWhale": false
+    },
+    {
       "id": "whale_1793390202569et43",
       "symbol": "BTCUSDT",
       "side": "LONG_LIQ",
@@ -11376,18 +11389,6 @@
       "totalUsd": 19518,
       "time": 1793389852516,
       "isWhale": false
-    },
-    {
-      "id": "whale_1793389850685sqh9",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2241.11,
-      "qty": 9.6697,
-      "totalUsd": 21671,
-      "time": 1793389850570,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -11455,11 +11456,11 @@
   "telemetry": {
     "totalScans": 10498,
     "totalNewsChecked": 859,
-    "totalWhalesProcessed": 77843,
+    "totalWhalesProcessed": 77844,
     "totalCandlesAnalyzed": 315088,
     "totalPostMortems": 106,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793390203963
+    "cloudSavedAt": 1793390206372
   },
   "performance": {
     "totalTrades": 106,
