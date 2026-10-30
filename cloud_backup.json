@@ -83,7 +83,7 @@
       "midPriceAtEntry": 95.185,
       "initialEntryPrice": 95.18,
       "entryPrice": 95.18,
-      "currentPrice": 95.235713,
+      "currentPrice": 95.33,
       "spreadBpsAtEntry": 0,
       "entryFeeUsd": 0.143,
       "entryFeeRemainingUsd": 0.143,
@@ -116,12 +116,12 @@
       "rsi": 62.6,
       "rationale": "[EMA Ribbon] 5m bikovski EMA 9/21/50 trak — Maker vstop na potrjenem odboju od EMA9. | RS vs BTC: +0.28% | ADX 20.5",
       "catalyst": null,
-      "unrealizedPnl": -0.08,
-      "unsettledPnl": 0.06,
-      "pnlPercent": -0.05,
+      "unrealizedPnl": 0.62,
+      "unsettledPnl": 0.77,
+      "pnlPercent": 0.35,
       "openedAt": 1793392594189,
       "lastFundingBucket": 1793376000000,
-      "liveSpreadBps": 3
+      "liveSpreadBps": 1.05
     }
   ],
   "history": [
@@ -5162,7 +5162,7 @@
     "totalPostMortems": 1,
     "peakBalance": 10000,
     "resetEpoch": 1793392854499,
-    "cloudSavedAt": 1793394051595
+    "cloudSavedAt": 1793394053572
   },
   "performance": {
     "totalTrades": 1,
