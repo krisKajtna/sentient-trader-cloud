@@ -16,7 +16,7 @@
       "strategyName": "SMC Liquidity Sweep & Reclaim",
       "strategyShort": "SMC Sweep",
       "entryPrice": 0.07504,
-      "currentPrice": 0.07515,
+      "currentPrice": 0.07512,
       "quantity": 9215.8677,
       "positionSizeUsd": 691.56,
       "margin": 230.52,
@@ -35,8 +35,8 @@
       "rsi": 68.1,
       "rationale": "[SMC Sweep] SMC Sweep nad vrhom $0.0751 (ujeti pozni kupci) in obrat navzdol [LEAN_BEARISH].",
       "catalyst": null,
-      "unrealizedPnl": -1.01,
-      "pnlPercent": -0.44,
+      "unrealizedPnl": -0.74,
+      "pnlPercent": -0.32,
       "openedAt": 1793327821040
     },
     {
@@ -48,7 +48,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 2214.51,
-      "currentPrice": 2217.1,
+      "currentPrice": 2216.63,
       "quantity": 0.3233,
       "positionSizeUsd": 716.03,
       "margin": 238.68,
@@ -67,8 +67,8 @@
       "rsi": 62.6,
       "rationale": "[MACD Divergence] Medvedja RSI divergenca (69 ➔ 63) z obratom MACD momenta navzdol.",
       "catalyst": null,
-      "unrealizedPnl": -0.84,
-      "pnlPercent": -0.35,
+      "unrealizedPnl": -0.69,
+      "pnlPercent": -0.29,
       "openedAt": 1793327252747
     },
     {
@@ -80,7 +80,7 @@
       "strategyName": "SMC Liquidity Sweep & Reclaim",
       "strategyShort": "SMC Sweep",
       "entryPrice": 77238,
-      "currentPrice": 77517.1,
+      "currentPrice": 77518.49,
       "quantity": 0.0106,
       "positionSizeUsd": 818.32,
       "margin": 272.77,
@@ -99,8 +99,8 @@
       "rsi": 67.1,
       "rationale": "[SMC Sweep] SMC Sweep nad vrhom $77259.10 (ujeti pozni kupci) in obrat navzdol [STRONG_BEARISH].",
       "catalyst": null,
-      "unrealizedPnl": -2.96,
-      "pnlPercent": -1.08,
+      "unrealizedPnl": -2.97,
+      "pnlPercent": -1.09,
       "openedAt": 1793327221029
     }
   ],
@@ -5229,6 +5229,78 @@
   ],
   "whales": [
     {
+      "id": "whale_17933279844259ji9",
+      "symbol": "BTCUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 77518.49,
+      "qty": 0.16,
+      "totalUsd": 12403,
+      "time": 1793327983191,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793327981454o2ch",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2216.84,
+      "qty": 15.8416,
+      "totalUsd": 35118,
+      "time": 1793327981338,
+      "isWhale": false
+    },
+    {
+      "id": "whale_17933279809293f7u",
+      "symbol": "SOLUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 95.4,
+      "qty": 156.006,
+      "totalUsd": 14883,
+      "time": 1793327980814,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793327977974inq2",
+      "symbol": "NEARUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 4.106,
+      "qty": 3164.1,
+      "totalUsd": 12992,
+      "time": 1793327977850,
+      "isWhale": false
+    },
+    {
+      "id": "whale_179332797797011ik",
+      "symbol": "NEARUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 4.105,
+      "qty": 3769.9,
+      "totalUsd": 15475,
+      "time": 1793327977850,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793327977966qs0i",
+      "symbol": "NEARUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 4.104,
+      "qty": 3066,
+      "totalUsd": 12583,
+      "time": 1793327977850,
+      "isWhale": false
+    },
+    {
       "id": "whale_1793327972416plbq",
       "symbol": "BTCUSDT",
       "side": "LONG_LIQ",
@@ -6958,78 +7030,6 @@
       "totalUsd": 11365,
       "time": 1793327930408,
       "isWhale": false
-    },
-    {
-      "id": "whale_1793327930524h59g",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2217.61,
-      "qty": 5.251,
-      "totalUsd": 11645,
-      "time": 1793327930408,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793327926127yqvk",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77517.31,
-      "qty": 0.1714,
-      "totalUsd": 13283,
-      "time": 1793327926011,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793327925892yxid",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77508.28,
-      "qty": 0.2497,
-      "totalUsd": 19355,
-      "time": 1793327925775,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793327920716tvkf",
-      "symbol": "NEARUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 4.105,
-      "qty": 3569.4,
-      "totalUsd": 14652,
-      "time": 1793327920600,
-      "isWhale": false
-    },
-    {
-      "id": "whale_179332791928564nu",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77508.28,
-      "qty": 0.2972,
-      "totalUsd": 23036,
-      "time": 1793327919169,
-      "isWhale": false
-    },
-    {
-      "id": "whale_17933279120402n2v",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77500.01,
-      "qty": 0.1299,
-      "totalUsd": 10065,
-      "time": 1793327911911,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -7095,13 +7095,13 @@
     }
   ],
   "telemetry": {
-    "totalScans": 2726,
-    "totalNewsChecked": 223,
-    "totalWhalesProcessed": 29563,
-    "totalCandlesAnalyzed": 66384,
+    "totalScans": 2727,
+    "totalNewsChecked": 233,
+    "totalWhalesProcessed": 29569,
+    "totalCandlesAnalyzed": 66416,
     "totalPostMortems": 61,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793327977221
+    "cloudSavedAt": 1793327984518
   },
   "performance": {
     "totalTrades": 61,
@@ -7316,8 +7316,8 @@
     },
     "onlineFindings": [
       {
-        "id": "find_1793327753844_BB_VOLATILITY_SQUEEZE",
-        "timestamp": 1793327753844,
+        "id": "find_1793327981723_BB_VOLATILITY_SQUEEZE",
+        "timestamp": 1793327981723,
         "strategyId": "BB_VOLATILITY_SQUEEZE",
         "strategyName": "BB Squeeze",
         "articleTitle": "Natural Gas Trading Strategies for 2027: How to Manage Extreme Price Volatility",
@@ -7329,8 +7329,8 @@
         "adopted": true
       },
       {
-        "id": "find_1793327753848_MACD_RSI_DIVERGENCE",
-        "timestamp": 1793327753848,
+        "id": "find_1793327981819_MACD_RSI_DIVERGENCE",
+        "timestamp": 1793327981819,
         "strategyId": "MACD_RSI_DIVERGENCE",
         "strategyName": "MACD Divergence",
         "articleTitle": "Trading the Dow Jones: Trend-Following Strategies for Professional Futures Traders in 2027",
@@ -7342,8 +7342,8 @@
         "adopted": true
       },
       {
-        "id": "find_1793327753917_VWAP_TREND_PULLBACK",
-        "timestamp": 1793327753917,
+        "id": "find_1793327981822_VWAP_TREND_PULLBACK",
+        "timestamp": 1793327981822,
         "strategyId": "VWAP_TREND_PULLBACK",
         "strategyName": "VWAP Pullback",
         "articleTitle": "Nasdaq 100 Trading Strategies for High-Volatility Market Sessions: A Practical Guide for Day…",
@@ -7355,8 +7355,8 @@
         "adopted": true
       },
       {
-        "id": "find_1793327753921_SMC_LIQUIDITY_SWEEP",
-        "timestamp": 1793327753921,
+        "id": "find_1793327981919_SMC_LIQUIDITY_SWEEP",
+        "timestamp": 1793327981919,
         "strategyId": "SMC_LIQUIDITY_SWEEP",
         "strategyName": "SMC Sweep",
         "articleTitle": "Using Support and Resistance to Build Better US Stock Trading Strategies in 2027",
@@ -7368,8 +7368,8 @@
         "adopted": true
       },
       {
-        "id": "find_1793327754016_EMA_RIBBON_MOMENTUM",
-        "timestamp": 1793327754016,
+        "id": "find_1793327981925_EMA_RIBBON_MOMENTUM",
+        "timestamp": 1793327981925,
         "strategyId": "EMA_RIBBON_MOMENTUM",
         "strategyName": "EMA Ribbon",
         "articleTitle": "Ethereum Price Rebound Gains Traction After Clearing Key Hurdles",
@@ -7394,7 +7394,7 @@
         "adopted": false
       }
     ],
-    "lastResearchAt": 1793327754020,
-    "researchCount": 10
+    "lastResearchAt": 1793327981926,
+    "researchCount": 11
   }
 }
