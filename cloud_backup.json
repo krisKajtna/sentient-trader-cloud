@@ -16,7 +16,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 2228.02,
-      "currentPrice": 2234.05,
+      "currentPrice": 2234.53,
       "quantity": 0.2129,
       "positionSizeUsd": 474.4,
       "margin": 158.13,
@@ -35,8 +35,8 @@
       "rsi": 44,
       "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($2234.80) v skladu z medvedjo 15m/1h strukturo.",
       "catalyst": null,
-      "unrealizedPnl": -1.28,
-      "pnlPercent": -0.81,
+      "unrealizedPnl": -1.39,
+      "pnlPercent": -0.88,
       "openedAt": 1793375607470
     },
     {
@@ -48,7 +48,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 1.2514,
-      "currentPrice": 1.2503,
+      "currentPrice": 1.2509,
       "quantity": 604.6302,
       "positionSizeUsd": 756.63,
       "margin": 252.21,
@@ -67,8 +67,8 @@
       "rsi": 55.4,
       "rationale": "[VWAP Pullback] Umirjen pullback do institucionalnega VWAP/EMA21 območja ($1.2508) v potrjenem MTF trendu.",
       "catalyst": null,
-      "unrealizedPnl": -0.67,
-      "pnlPercent": -0.26,
+      "unrealizedPnl": -0.3,
+      "pnlPercent": -0.12,
       "openedAt": 1793375582923
     },
     {
@@ -80,7 +80,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 77986.01,
-      "currentPrice": 77482.01,
+      "currentPrice": 77496,
       "quantity": 0.0071,
       "positionSizeUsd": 552.38,
       "margin": 184.13,
@@ -99,8 +99,8 @@
       "rsi": 71.1,
       "rationale": "[MACD Divergence] Medvedja RSI divergenca (76 ➔ 71) z obratom MACD momenta navzdol.",
       "catalyst": null,
-      "unrealizedPnl": 3.58,
-      "pnlPercent": 1.94,
+      "unrealizedPnl": 3.48,
+      "pnlPercent": 1.88,
       "openedAt": 1793373637827
     },
     {
@@ -112,7 +112,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 703.66,
-      "currentPrice": 699.45,
+      "currentPrice": 699.53,
       "quantity": 0.759,
       "positionSizeUsd": 534.07,
       "margin": 178.02,
@@ -131,8 +131,8 @@
       "rsi": 76.5,
       "rationale": "[MACD Divergence] Medvedja RSI divergenca (80 ➔ 76) z obratom MACD momenta navzdol.",
       "catalyst": null,
-      "unrealizedPnl": 3.2,
-      "pnlPercent": 1.79,
+      "unrealizedPnl": 3.13,
+      "pnlPercent": 1.76,
       "openedAt": 1793373061221
     }
   ],
@@ -9107,6 +9107,66 @@
   ],
   "whales": [
     {
+      "id": "whale_179337748179531bz",
+      "symbol": "NEARUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 4.33,
+      "qty": 2321.9,
+      "totalUsd": 10054,
+      "time": 1793377481679,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793377481711zsup",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2234.31,
+      "qty": 6.0165,
+      "totalUsd": 13443,
+      "time": 1793377481595,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793377481571m1ru",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77482.01,
+      "qty": 0.1321,
+      "totalUsd": 10235,
+      "time": 1793377481456,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793377480716cjf9",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2234.31,
+      "qty": 5.5244,
+      "totalUsd": 12343,
+      "time": 1793377480554,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793377480671ggbc",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2234.15,
+      "qty": 7.6847,
+      "totalUsd": 17169,
+      "time": 1793377480554,
+      "isWhale": false
+    },
+    {
       "id": "whale_1793377477454grds",
       "symbol": "ETHUSDT",
       "side": "LONG_LIQ",
@@ -10854,66 +10914,6 @@
       "totalUsd": 11840,
       "time": 1793377248433,
       "isWhale": false
-    },
-    {
-      "id": "whale_1793377247505agpa",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77641.26,
-      "qty": 0.1457,
-      "totalUsd": 11310,
-      "time": 1793377247390,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793377246764iejz",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77641.26,
-      "qty": 0.1486,
-      "totalUsd": 11537,
-      "time": 1793377246648,
-      "isWhale": false
-    },
-    {
-      "id": "whale_179337724642525jz",
-      "symbol": "BTCUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 77641.25,
-      "qty": 0.16,
-      "totalUsd": 12422,
-      "time": 1793377245790,
-      "isWhale": false
-    },
-    {
-      "id": "whale_17933772463334ckp",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2238.09,
-      "qty": 5.2635,
-      "totalUsd": 11780,
-      "time": 1793377245552,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793377244621kepk",
-      "symbol": "BTCUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 77639.22,
-      "qty": 0.3997,
-      "totalUsd": 31034,
-      "time": 1793377244237,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -10979,13 +10979,13 @@
     }
   ],
   "telemetry": {
-    "totalScans": 8912,
-    "totalNewsChecked": 728,
-    "totalWhalesProcessed": 69999,
-    "totalCandlesAnalyzed": 264336,
+    "totalScans": 8913,
+    "totalNewsChecked": 738,
+    "totalWhalesProcessed": 70004,
+    "totalCandlesAnalyzed": 264368,
     "totalPostMortems": 98,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793377478327
+    "cloudSavedAt": 1793377484426
   },
   "performance": {
     "totalTrades": 98,
@@ -11045,8 +11045,8 @@
         "atrSlMult": 2.2,
         "rrTarget": 2.5,
         "weight": 1.2,
-        "backtestWinRate": 50,
-        "backtestTrades": 2,
+        "backtestWinRate": 100,
+        "backtestTrades": 1,
         "trades": 12,
         "wins": 4,
         "losses": 8,
@@ -11150,8 +11150,8 @@
         "atrSlMult": 2.3,
         "rrTarget": 2.5,
         "weight": 1.25,
-        "backtestWinRate": 75,
-        "backtestTrades": 4,
+        "backtestWinRate": 80,
+        "backtestTrades": 5,
         "trades": 1,
         "wins": 0,
         "losses": 1,
@@ -11171,7 +11171,7 @@
         "atrSlMult": 2,
         "rrTarget": 2.5,
         "weight": 1.25,
-        "backtestWinRate": 61.9,
+        "backtestWinRate": 66.7,
         "backtestTrades": 21,
         "trades": 17,
         "wins": 10,
@@ -11202,8 +11202,8 @@
     },
     "onlineFindings": [
       {
-        "id": "find_1793375981432_BB_VOLATILITY_SQUEEZE",
-        "timestamp": 1793375981432,
+        "id": "find_1793377481872_BB_VOLATILITY_SQUEEZE",
+        "timestamp": 1793377481872,
         "strategyId": "BB_VOLATILITY_SQUEEZE",
         "strategyName": "BB Squeeze",
         "articleTitle": "Crypto Day Trading Strategies for 2027: Managing Liquidity, Volatility, and Execution Risk",
@@ -11215,8 +11215,8 @@
         "adopted": true
       },
       {
-        "id": "find_1793375981435_MACD_RSI_DIVERGENCE",
-        "timestamp": 1793375981435,
+        "id": "find_1793377481875_MACD_RSI_DIVERGENCE",
+        "timestamp": 1793377481875,
         "strategyId": "MACD_RSI_DIVERGENCE",
         "strategyName": "MACD Divergence",
         "articleTitle": "Bitcoin Breakout Trading Strategies for 2027: Using Volume, Market Structure, and Momentum…",
@@ -11228,34 +11228,34 @@
         "adopted": true
       },
       {
-        "id": "find_1793375981438_SMC_LIQUIDITY_SWEEP",
-        "timestamp": 1793375981438,
+        "id": "find_1793377481877_SMC_LIQUIDITY_SWEEP",
+        "timestamp": 1793377481877,
         "strategyId": "SMC_LIQUIDITY_SWEEP",
         "strategyName": "SMC Sweep",
         "articleTitle": "How to Build a Market-Neutral Crypto Trading Strategy Using Futures and Spot Markets in 2027",
         "source": "Medium Trading Strategies",
         "url": "https://medium.com/@fintechastrodunia7/how-to-build-a-market-neutral-crypto-trading-strategy-using-futures-and-spot-markets-in-2027-0d3e2444cb25?source=rss------trading_strategy-5",
-        "backtestWinRate": 50,
-        "backtestTrades": 2,
-        "netR": 1.5,
+        "backtestWinRate": 100,
+        "backtestTrades": 1,
+        "netR": 2.5,
         "adopted": true
       },
       {
-        "id": "find_1793375981526_EMA_RIBBON_MOMENTUM",
-        "timestamp": 1793375981526,
+        "id": "find_1793377481917_EMA_RIBBON_MOMENTUM",
+        "timestamp": 1793377481917,
         "strategyId": "EMA_RIBBON_MOMENTUM",
         "strategyName": "EMA Ribbon",
         "articleTitle": "US Dollar Trading Strategies for 2027: Interest Rates, Currency Cycles, and Global Market…",
         "source": "Medium Trading Strategies",
         "url": "https://medium.com/@astrotechvegan/us-dollar-trading-strategies-for-2027-interest-rates-currency-cycles-and-global-market-07e90899d140?source=rss------trading_strategy-5",
-        "backtestWinRate": 61.9,
+        "backtestWinRate": 66.7,
         "backtestTrades": 21,
-        "netR": 24.5,
+        "netR": 28,
         "adopted": true
       },
       {
-        "id": "find_1793375981616_WHALE_ORDERFLOW_ABSORPTION",
-        "timestamp": 1793375981616,
+        "id": "find_1793377481920_WHALE_ORDERFLOW_ABSORPTION",
+        "timestamp": 1793377481920,
         "strategyId": "WHALE_ORDERFLOW_ABSORPTION",
         "strategyName": "Whale Absorption",
         "articleTitle": "Crypto Futures Trading Strategies for 2027: Managing Leverage, Funding Rates, and Liquidation Risk",
@@ -11358,7 +11358,7 @@
         "adopted": true
       }
     ],
-    "lastResearchAt": 1793375981616,
-    "researchCount": 44
+    "lastResearchAt": 1793377481920,
+    "researchCount": 45
   }
 }
