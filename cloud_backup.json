@@ -1,12 +1,71 @@
 {
   "config": {
     "startingBalance": 10000,
-    "balance": 10000,
+    "balance": 9999.86,
     "maxRiskPerTradePercent": 2,
     "leverage": 3,
     "autoTradeEnabled": true
   },
-  "positions": [],
+  "positions": [
+    {
+      "id": "pos_1793392594188i39",
+      "venue": "LIVE_ORDERBOOK_DEMO",
+      "entryOrderType": "LIMIT_MAKER",
+      "exchangeOrderId": null,
+      "setupTier": "A",
+      "regime": "RANGING",
+      "adx": 20.5,
+      "rsVsBtcPct": 0.284,
+      "symbol": "SOLUSDT",
+      "type": "LONG",
+      "signalSource": "MTF_TECH",
+      "strategyId": "EMA_RIBBON_MOMENTUM",
+      "strategyName": "EMA 9/21/50 Institutional Trend Ribbon",
+      "strategyShort": "EMA Ribbon [A]",
+      "midPriceAtEntry": 95.185,
+      "initialEntryPrice": 95.18,
+      "entryPrice": 95.18,
+      "currentPrice": 95.18,
+      "spreadBpsAtEntry": 0,
+      "entryFeeUsd": 0.143,
+      "entryFeeRemainingUsd": 0.143,
+      "spreadCostUsd": 0,
+      "slippageUsd": 0,
+      "fundingNetUsd": 0,
+      "roundTripFrictionPct": 0.001201,
+      "initialQuantity": 7.4858,
+      "quantity": 7.4858,
+      "initialNotionalUsd": 712.5,
+      "positionSizeUsd": 712.5,
+      "margin": 178.13,
+      "sizeMultiplier": 0.69,
+      "slPercent": 0.0085,
+      "oneRPercent": 3.4,
+      "rrTarget": 2.75,
+      "partialTp1Price": 96.15,
+      "partialTpTaken": false,
+      "realizedPartialPnl": 0,
+      "scaledIn": false,
+      "profitLockRoi": 4.08,
+      "capitalMode": "BALANCED_ADAPTIVE",
+      "leverage": 4,
+      "stopLoss": 94.37,
+      "takeProfit": 97.4,
+      "breakEvenMoved": false,
+      "trailingActive": false,
+      "peakPnlPercent": 0,
+      "confidence": 98,
+      "rsi": 62.6,
+      "rationale": "[EMA Ribbon] 5m bikovski EMA 9/21/50 trak — Maker vstop na potrjenem odboju od EMA9. | RS vs BTC: +0.28% | ADX 20.5",
+      "catalyst": null,
+      "unrealizedPnl": -0.5,
+      "unsettledPnl": -0.36,
+      "pnlPercent": -0.28,
+      "openedAt": 1793392594189,
+      "lastFundingBucket": 1793376000000,
+      "liveSpreadBps": 1.05
+    }
+  ],
   "history": [],
   "learnings": [],
   "news": [
@@ -3068,6 +3127,30 @@
   ],
   "whales": [
     {
+      "id": "whale_1793392595767a1rb",
+      "symbol": "BTCUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 77012,
+      "qty": 0.1428,
+      "totalUsd": 11000,
+      "time": 1793392595644,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793392595497du3t",
+      "symbol": "BTCUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 77012,
+      "qty": 0.5022,
+      "totalUsd": 38672,
+      "time": 1793392595382,
+      "isWhale": false
+    },
+    {
       "id": "whale_1793392587975v8vw",
       "symbol": "ETHUSDT",
       "side": "SHORT_LIQ",
@@ -4858,31 +4941,6 @@
       "totalUsd": 17704,
       "time": 1793392084325,
       "isWhale": false
-    },
-    {
-      "id": "casc_179339208068125i",
-      "isCascade": true,
-      "symbol": "ETHUSDT",
-      "type": "BEARISH_EXHAUSTION",
-      "liquidatedSide": "SHORT_LIQ",
-      "totalVolumeUsd": 284133,
-      "totalUsd": 284133,
-      "count": 14,
-      "timestamp": 1793392080681,
-      "time": 1793392080681,
-      "rationale": "Liquidation Cascade: $284k of SHORT_LIQ wiped out (14 orders). High-probability setup."
-    },
-    {
-      "id": "whale_17933920806769c6y",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2241.9,
-      "qty": 8.2247,
-      "totalUsd": 18439,
-      "time": 1793392080555,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -4948,14 +5006,14 @@
     }
   ],
   "telemetry": {
-    "totalScans": 0,
+    "totalScans": 1,
     "totalNewsChecked": 150,
-    "totalWhalesProcessed": 150,
-    "totalCandlesAnalyzed": 0,
+    "totalWhalesProcessed": 152,
+    "totalCandlesAnalyzed": 40,
     "totalPostMortems": 0,
     "peakBalance": 10000,
     "resetEpoch": 1793392590869,
-    "cloudSavedAt": 1793392591975
+    "cloudSavedAt": 1793392596068
   },
   "performance": {
     "totalTrades": 0,
@@ -5332,12 +5390,13 @@
     "researchCount": 54
   },
   "executionCosts": {
-    "totalEntryFeesUsd": 0.25,
+    "totalEntryFeesUsd": 0.39,
     "totalExitFeesUsd": 0.34,
     "totalSpreadCostUsd": 0.15,
     "totalSlippageCostUsd": 0.17,
     "totalFundingNetUsd": 0,
-    "ordersFilled": 2
+    "ordersFilled": 3,
+    "makerOrdersFilled": 1
   },
   "demoBroker": {
     "mode": "LIVE_ORDERBOOK_DEMO"
