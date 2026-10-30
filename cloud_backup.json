@@ -1,43 +1,43 @@
 {
   "config": {
     "startingBalance": 10000,
-    "balance": 10005.81,
+    "balance": 10002.48,
     "maxRiskPerTradePercent": 2,
     "leverage": 3,
     "autoTradeEnabled": true
   },
   "positions": [
     {
-      "id": "pos_1793380743630ptz",
-      "symbol": "DOGEUSDT",
-      "type": "LONG",
+      "id": "pos_1793382711938tu6",
+      "symbol": "SOLUSDT",
+      "type": "SHORT",
       "signalSource": "MTF_TECH",
       "strategyId": "DONCHIAN_TURTLE_BREAKOUT",
       "strategyName": "Donchian 20-Bar Turtle Structure Breakout",
       "strategyShort": "Donchian 20",
-      "entryPrice": 0.07595,
-      "currentPrice": 0.07542,
-      "quantity": 5849.3478,
-      "positionSizeUsd": 444.26,
-      "margin": 148.09,
-      "sizeMultiplier": 0.74,
+      "entryPrice": 94.31,
+      "currentPrice": 94.31,
+      "quantity": 4.2636,
+      "positionSizeUsd": 402.1,
+      "margin": 134.03,
+      "sizeMultiplier": 0.67,
       "oneRPercent": 2.25,
       "rrTarget": 2.5,
       "profitLockRoi": 2.14,
       "capitalMode": "BALANCED_ADAPTIVE",
       "leverage": 3,
-      "stopLoss": 0.07538,
-      "takeProfit": 0.07737,
+      "stopLoss": 95.02,
+      "takeProfit": 92.54,
       "breakEvenMoved": false,
       "trailingActive": false,
       "peakPnlPercent": 0,
       "confidence": 98,
-      "rsi": 67.1,
-      "rationale": "[Donchian 20] Čist Donchian 20-svečni strukturni preboj nad $0.0759 v smeri trenda.",
+      "rsi": 32.6,
+      "rationale": "[Donchian 20] Čist Donchian 20-svečni preboj pod podporo $94.42 z MTF podporo.",
       "catalyst": null,
-      "unrealizedPnl": -3.1,
-      "pnlPercent": -2.09,
-      "openedAt": 1793380743630
+      "unrealizedPnl": 0,
+      "pnlPercent": 0,
+      "openedAt": 1793382711938
     },
     {
       "id": "pos_1793375582923mjb",
@@ -48,7 +48,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 1.2514,
-      "currentPrice": 1.2461,
+      "currentPrice": 1.2459,
       "quantity": 604.6302,
       "positionSizeUsd": 756.63,
       "margin": 252.21,
@@ -67,8 +67,8 @@
       "rsi": 55.4,
       "rationale": "[VWAP Pullback] Umirjen pullback do institucionalnega VWAP/EMA21 območja ($1.2508) v potrjenem MTF trendu.",
       "catalyst": null,
-      "unrealizedPnl": -3.2,
-      "pnlPercent": -1.27,
+      "unrealizedPnl": -3.33,
+      "pnlPercent": -1.32,
       "openedAt": 1793375582923
     },
     {
@@ -80,7 +80,7 @@
       "strategyName": "MACD Histogram Flip + RSI Divergence",
       "strategyShort": "MACD Divergence",
       "entryPrice": 77986.01,
-      "currentPrice": 77200,
+      "currentPrice": 77201.25,
       "quantity": 0.0071,
       "positionSizeUsd": 552.38,
       "margin": 184.13,
@@ -99,12 +99,51 @@
       "rsi": 71.1,
       "rationale": "[MACD Divergence] Medvedja RSI divergenca (76 ➔ 71) z obratom MACD momenta navzdol.",
       "catalyst": null,
-      "unrealizedPnl": 5.58,
+      "unrealizedPnl": 5.57,
       "pnlPercent": 3.02,
       "openedAt": 1793373637827
     }
   ],
   "history": [
+    {
+      "id": "pos_1793380743630ptz",
+      "symbol": "DOGEUSDT",
+      "type": "LONG",
+      "signalSource": "MTF_TECH",
+      "strategyId": "DONCHIAN_TURTLE_BREAKOUT",
+      "strategyName": "Donchian 20-Bar Turtle Structure Breakout",
+      "strategyShort": "Donchian 20",
+      "entryPrice": 0.07595,
+      "currentPrice": 0.07538,
+      "quantity": 5849.3478,
+      "positionSizeUsd": 444.26,
+      "margin": 148.09,
+      "sizeMultiplier": 0.74,
+      "oneRPercent": 2.25,
+      "rrTarget": 2.5,
+      "profitLockRoi": 2.14,
+      "capitalMode": "BALANCED_ADAPTIVE",
+      "leverage": 3,
+      "stopLoss": 0.07538,
+      "takeProfit": 0.07737,
+      "breakEvenMoved": false,
+      "trailingActive": false,
+      "peakPnlPercent": 0,
+      "confidence": 98,
+      "rsi": 67.1,
+      "rationale": "[Donchian 20] Čist Donchian 20-svečni strukturni preboj nad $0.0759 v smeri trenda.",
+      "catalyst": null,
+      "unrealizedPnl": -3.33,
+      "pnlPercent": -2.25,
+      "openedAt": 1793380743630,
+      "exitPrice": 0.07538,
+      "realizedPnl": -3.33,
+      "realizedPnlPercent": -2.25,
+      "closedAt": 1793382709734,
+      "durationSec": 1966,
+      "closeReason": "STOP_LOSS_HIT",
+      "appliedAction": "🛡️ OBRAMBNI ŠČIT (-$3.33): Znižujem tveganje na DOGEUSDT (-12% velikost) in vklapljam hitrejši Profit-Lock pri +0.65% ROI za zaščito kapitala."
+    },
     {
       "id": "pos_1793373061221omn",
       "symbol": "BNBUSDT",
@@ -4007,6 +4046,28 @@
   ],
   "learnings": [
     {
+      "id": "learn_1793382709824fdc",
+      "timestamp": "2026-10-30T17:51:49.824Z",
+      "symbol": "DOGEUSDT",
+      "source": "MTF_TECH",
+      "tradeId": "pos_1793380743630ptz",
+      "outcome": "LOSS",
+      "category": "AVOIDED_TRAP",
+      "pnl": -3.33,
+      "roi": -2.25,
+      "holdingTimeMin": 33,
+      "lessonTitle": "Kalibracija tveganja: LONG na DOGEUSDT (-$3.33)",
+      "lessonDetail": "🛡️ OBRAMBNI ŠČIT (-$3.33): Znižujem tveganje na DOGEUSDT (-12% velikost) in vklapljam hitrejši Profit-Lock pri +0.65% ROI za zaščito kapitala. Razlog: STOP_LOSS_HIT.",
+      "actionableRule": "PRILAGOJENO (MTF_TECH): LONG na DOGEUSDT zaprt pri -$3.33. Velikost prilagojena na 0.65x z varovalom.",
+      "appliedAction": "🛡️ OBRAMBNI ŠČIT (-$3.33): Znižujem tveganje na DOGEUSDT (-12% velikost) in vklapljam hitrejši Profit-Lock pri +0.65% ROI za zaščito kapitala.",
+      "newSymbolWeight": 1.03,
+      "newSizeMultiplier": 0.65,
+      "capitalMode": "BALANCED_ADAPTIVE",
+      "currentWinrate": 59.4,
+      "minConfidenceThreshold": 52,
+      "antiParalysisActive": true
+    },
+    {
       "id": "learn_1793380717645g8v",
       "timestamp": "2026-10-30T17:18:37.645Z",
       "symbol": "BNBUSDT",
@@ -6133,6 +6194,26 @@
     }
   ],
   "news": [
+    {
+      "id": "news_1793382706520gos6",
+      "timestamp": "2026-10-30T17:51:46.520Z",
+      "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
+      "summary": "Binance says it has set aside $6.34 billion to cover losses from the breach and the FBI and Secret Service are now working with the exchange as investigators trace the stolen funds.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
+      "symbols": [
+        "BNBUSDT"
+      ],
+      "sentiment": "BEARISH",
+      "bias": -1,
+      "impactScore": 10,
+      "receivedAt": 1793382706520,
+      "publishedAt": 1793382626000,
+      "checkedByAi": true,
+      "aiDecision": "MAX POZICIJ (fokus na odprtih)",
+      "checkedAt": 1793382706616,
+      "triggeredTrade": false
+    },
     {
       "id": "news_1793382686673kbyw",
       "timestamp": "2026-10-30T17:51:26.673Z",
@@ -9164,30 +9245,94 @@
       "aiDecision": "MAX POZICIJ (fokus na odprtih)",
       "checkedAt": 1793339004453,
       "triggeredTrade": false
-    },
-    {
-      "id": "news_1793338924820qb1e",
-      "timestamp": "2026-10-30T05:42:04.820Z",
-      "title": "Binance hack began with a $296 million XRP drain after 36-hour preparation",
-      "summary": "The Binance attacker spent at least 36 hours preparing for the $6.36 billion crypto exchange hack that began with $296 million in XRP. According to an Oct. 29 investigation by TRM Labs, the attacker b...",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/binance-hack-began-with-a-296-million-xrp-drain-after-36-hour-preparation/",
-      "symbols": [
-        "BNBUSDT",
-        "XRPUSDT"
-      ],
-      "sentiment": "BEARISH",
-      "bias": -0.88,
-      "impactScore": 10,
-      "receivedAt": 1793338924820,
-      "publishedAt": 1793338852000,
-      "checkedByAi": true,
-      "aiDecision": "MAX POZICIJ (fokus na odprtih) | XRP: čakam potrditev sveče",
-      "checkedAt": 1793338925019,
-      "triggeredTrade": false
     }
   ],
   "whales": [
+    {
+      "id": "casc_1793382712019lqe",
+      "isCascade": true,
+      "symbol": "BTCUSDT",
+      "type": "BEARISH_EXHAUSTION",
+      "liquidatedSide": "SHORT_LIQ",
+      "totalVolumeUsd": 311146,
+      "totalUsd": 311146,
+      "count": 9,
+      "timestamp": 1793382712019,
+      "time": 1793382712019,
+      "rationale": "Liquidation Cascade: $311k of SHORT_LIQ wiped out (9 orders). High-probability setup."
+    },
+    {
+      "id": "whale_179338271199879vl",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77201.25,
+      "qty": 1.015,
+      "totalUsd": 78359,
+      "time": 1793382711880,
+      "isWhale": true
+    },
+    {
+      "id": "whale_179338271067011lj",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2242.46,
+      "qty": 11.3131,
+      "totalUsd": 25369,
+      "time": 1793382710555,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793382700674i5el",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2242.46,
+      "qty": 11.7665,
+      "totalUsd": 26386,
+      "time": 1793382700559,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793382699638k7da",
+      "symbol": "SOLUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 94.32,
+      "qty": 203.11,
+      "totalUsd": 19157,
+      "time": 1793382699502,
+      "isWhale": false
+    },
+    {
+      "id": "whale_17933826996299p9n",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77200.01,
+      "qty": 0.2634,
+      "totalUsd": 20335,
+      "time": 1793382699501,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793382699614kfmh",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 77200.01,
+      "qty": 0.1881,
+      "totalUsd": 14520,
+      "time": 1793382699499,
+      "isWhale": false
+    },
     {
       "id": "whale_179338269638754j8",
       "symbol": "ETHUSDT",
@@ -10916,90 +11061,6 @@
       "totalUsd": 17665,
       "time": 1793382433341,
       "isWhale": false
-    },
-    {
-      "id": "whale_17933824333534rcm",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77292,
-      "qty": 0.2253,
-      "totalUsd": 17417,
-      "time": 1793382433236,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793382430697zlsp",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2244.66,
-      "qty": 8.1602,
-      "totalUsd": 18317,
-      "time": 1793382430568,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793382430685ccww",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2244.55,
-      "qty": 4.5006,
-      "totalUsd": 10102,
-      "time": 1793382430568,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793382421525teby",
-      "symbol": "SOLUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "LONG REKT",
-      "exchange": "OKX",
-      "price": 96.32,
-      "qty": 210.52,
-      "totalUsd": 20277,
-      "time": 1793317046187,
-      "isWhale": false
-    },
-    {
-      "id": "whale_17933824206651a6e",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2243.77,
-      "qty": 15.725,
-      "totalUsd": 35283,
-      "time": 1793382420550,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793382419433l6ka",
-      "symbol": "ETHUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 2243.76,
-      "qty": 9.518,
-      "totalUsd": 21356,
-      "time": 1793382419318,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793382419297xjtr",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77251.25,
-      "qty": 0.1584,
-      "totalUsd": 12234,
-      "time": 1793382419179,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -11065,21 +11126,21 @@
     }
   ],
   "telemetry": {
-    "totalScans": 9565,
-    "totalNewsChecked": 785,
-    "totalWhalesProcessed": 73283,
-    "totalCandlesAnalyzed": 285232,
-    "totalPostMortems": 100,
+    "totalScans": 9567,
+    "totalNewsChecked": 786,
+    "totalWhalesProcessed": 73290,
+    "totalCandlesAnalyzed": 285296,
+    "totalPostMortems": 101,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793382698436
+    "cloudSavedAt": 1793382714447
   },
   "performance": {
-    "totalTrades": 100,
+    "totalTrades": 101,
     "wins": 60,
-    "losses": 40,
-    "winRate": 60,
-    "profitFactor": 1.03,
-    "totalPnL": 5.81
+    "losses": 41,
+    "winRate": 59.4,
+    "profitFactor": 1.01,
+    "totalPnL": 2.48
   },
   "weights": {
     "newsWeight": 1.25,
@@ -11088,12 +11149,12 @@
     "minConfidenceThreshold": 52,
     "globalRiskMultiplier": 1,
     "capitalMode": "BALANCED_ADAPTIVE",
-    "globalStreak": 1,
+    "globalStreak": -1,
     "maxWinStreak": 16,
     "sourceBias": {
       "NEWS": 1.29,
       "WHALE": 0.92,
-      "MTF_TECH": 1.13
+      "MTF_TECH": 1.1
     },
     "symbolBias": {
       "BTCUSDT": 1.09,
@@ -11101,7 +11162,7 @@
       "SOLUSDT": 1.02,
       "BNBUSDT": 1.22,
       "XRPUSDT": 1.17,
-      "DOGEUSDT": 1.08,
+      "DOGEUSDT": 1.03,
       "AVAXUSDT": 0.95,
       "NEARUSDT": 1.35
     },
@@ -11111,7 +11172,7 @@
       "SOLUSDT": 0.67,
       "BNBUSDT": 1.13,
       "XRPUSDT": 0.94,
-      "DOGEUSDT": 0.67,
+      "DOGEUSDT": 0.65,
       "AVAXUSDT": 0.67,
       "NEARUSDT": 1.12
     }
@@ -11235,14 +11296,14 @@
         "sourceUrl": "https://medium.com/@fintechastrodunia5/bitcoin-breakout-trading-strategies-for-2027-using-volume-market-structure-and-momentum-7e811b09937e?source=rss------trading_strategy-5",
         "atrSlMult": 2.3,
         "rrTarget": 2.5,
-        "weight": 1.25,
+        "weight": 1.2,
         "backtestWinRate": 57.1,
         "backtestTrades": 7,
-        "trades": 1,
+        "trades": 2,
         "wins": 0,
-        "losses": 1,
-        "netPnl": -1.28,
-        "lossStreak": 1
+        "losses": 2,
+        "netPnl": -4.61,
+        "lossStreak": 2
       },
       "EMA_RIBBON_MOMENTUM": {
         "id": "EMA_RIBBON_MOMENTUM",
