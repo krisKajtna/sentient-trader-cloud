@@ -19,7 +19,7 @@
       "strategyShort": "EMA Ribbon",
       "midPriceAtEntry": 1.2502499999999999,
       "entryPrice": 1.25034,
-      "currentPrice": 1.2491,
+      "currentPrice": 1.2495,
       "spreadBpsAtEntry": 0.8,
       "entryFeeUsd": 0.246,
       "spreadCostUsd": 0.019,
@@ -44,9 +44,9 @@
       "rsi": 64.4,
       "rationale": "[EMA Ribbon] Popoln bikovski EMA 9/21/50 trak — vstop na potrjenem odboju od EMA9.",
       "catalyst": null,
-      "unrealizedPnl": -0.98,
-      "unsettledPnl": -0.73,
-      "pnlPercent": -0.6,
+      "unrealizedPnl": -0.82,
+      "unsettledPnl": -0.58,
+      "pnlPercent": -0.5,
       "openedAt": 1793390203867,
       "lastFundingBucket": 1793376000000,
       "liveSpreadBps": 0.8
@@ -60,7 +60,7 @@
       "strategyName": "EMA 9/21/50 Institutional Trend Ribbon",
       "strategyShort": "EMA Ribbon",
       "entryPrice": 8.426,
-      "currentPrice": 8.403,
+      "currentPrice": 8.404,
       "quantity": 47.7349,
       "positionSizeUsd": 402.21,
       "margin": 134.07,
@@ -79,11 +79,11 @@
       "rsi": 65.4,
       "rationale": "[EMA Ribbon] Popoln bikovski EMA 9/21/50 trak — vstop na potrjenem odboju od EMA9.",
       "catalyst": null,
-      "unrealizedPnl": -1.3,
-      "pnlPercent": -0.97,
+      "unrealizedPnl": -1.25,
+      "pnlPercent": -0.93,
       "openedAt": 1793389745252,
       "liveSpreadBps": 1.19,
-      "unsettledPnl": -1.3
+      "unsettledPnl": -1.25
     },
     {
       "id": "pos_1793383471955wbk",
@@ -94,7 +94,7 @@
       "strategyName": "Institutional VWAP + EMA21 Pullback",
       "strategyShort": "VWAP Pullback",
       "entryPrice": 699.27,
-      "currentPrice": 700.9,
+      "currentPrice": 701.07,
       "quantity": 0.772,
       "positionSizeUsd": 539.83,
       "margin": 179.94,
@@ -113,11 +113,11 @@
       "rsi": 36.2,
       "rationale": "[VWAP Pullback] Zavrnitev pri VWAP/EMA21 ravni ($700.84) v skladu z medvedjo 15m/1h strukturo.",
       "catalyst": null,
-      "unrealizedPnl": -1.53,
-      "pnlPercent": -0.85,
+      "unrealizedPnl": -1.66,
+      "pnlPercent": -0.92,
       "openedAt": 1793383471955,
       "liveSpreadBps": 0.14,
-      "unsettledPnl": -1.53
+      "unsettledPnl": -1.66
     }
   ],
   "history": [
@@ -9580,6 +9580,103 @@
   ],
   "whales": [
     {
+      "id": "casc_17933920525530ab",
+      "isCascade": true,
+      "symbol": "BTCUSDT",
+      "type": "BEARISH_EXHAUSTION",
+      "liquidatedSide": "SHORT_LIQ",
+      "totalVolumeUsd": 150025,
+      "totalUsd": 150025,
+      "count": 4,
+      "timestamp": 1793392052553,
+      "time": 1793392052553,
+      "rationale": "Liquidation Cascade: $150k of SHORT_LIQ wiped out (4 orders). High-probability setup."
+    },
+    {
+      "id": "whale_1793392052547wzzf",
+      "symbol": "BTCUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 76979.99,
+      "qty": 0.7168,
+      "totalUsd": 55179,
+      "time": 1793392052432,
+      "isWhale": true
+    },
+    {
+      "id": "whale_1793392050677swpp",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2241.86,
+      "qty": 7.5163,
+      "totalUsd": 16850,
+      "time": 1793392050552,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793392049102lqvo",
+      "symbol": "BTCUSDT",
+      "side": "LONG_LIQ",
+      "eventKind": "WHALE SELL",
+      "exchange": "BINANCE",
+      "price": 76979.98,
+      "qty": 0.307,
+      "totalUsd": 23629,
+      "time": 1793392048987,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793392040765ui5a",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2240.99,
+      "qty": 6.854,
+      "totalUsd": 15360,
+      "time": 1793392040593,
+      "isWhale": false
+    },
+    {
+      "id": "whale_17933920406975lo2",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2240.99,
+      "qty": 10.3552,
+      "totalUsd": 23206,
+      "time": 1793392040580,
+      "isWhale": false
+    },
+    {
+      "id": "whale_1793392039512lq2j",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2240.97,
+      "qty": 19.5625,
+      "totalUsd": 43839,
+      "time": 1793392039397,
+      "isWhale": false
+    },
+    {
+      "id": "whale_17933920356741ovb",
+      "symbol": "ETHUSDT",
+      "side": "SHORT_LIQ",
+      "eventKind": "WHALE BUY",
+      "exchange": "BINANCE",
+      "price": 2240.97,
+      "qty": 7.3386,
+      "totalUsd": 16446,
+      "time": 1793392035558,
+      "isWhale": false
+    },
+    {
       "id": "casc_1793392030965hzh",
       "isCascade": true,
       "symbol": "ETHUSDT",
@@ -11294,103 +11391,6 @@
       "totalUsd": 15121,
       "time": 1793391655556,
       "isWhale": false
-    },
-    {
-      "id": "whale_1793391654258ewhu",
-      "symbol": "BTCUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 77008.01,
-      "qty": 0.1787,
-      "totalUsd": 13761,
-      "time": 1793391654055,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793391654177rig7",
-      "symbol": "BTCUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 77008.01,
-      "qty": 0.2172,
-      "totalUsd": 16724,
-      "time": 1793391654055,
-      "isWhale": false
-    },
-    {
-      "id": "whale_17933916541701t03",
-      "symbol": "BTCUSDT",
-      "side": "LONG_LIQ",
-      "eventKind": "WHALE SELL",
-      "exchange": "BINANCE",
-      "price": 77008.01,
-      "qty": 0.1442,
-      "totalUsd": 11107,
-      "time": 1793391654055,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793391647995xiot",
-      "symbol": "BTCUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 77008.02,
-      "qty": 0.1396,
-      "totalUsd": 10746,
-      "time": 1793391647880,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793391645662et0i",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2241.86,
-      "qty": 6.8607,
-      "totalUsd": 15381,
-      "time": 1793391645548,
-      "isWhale": false
-    },
-    {
-      "id": "whale_1793391640672jurv",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2241.86,
-      "qty": 8.2299,
-      "totalUsd": 18450,
-      "time": 1793391640558,
-      "isWhale": false
-    },
-    {
-      "id": "casc_17933916306634b4",
-      "isCascade": true,
-      "symbol": "ETHUSDT",
-      "type": "BEARISH_EXHAUSTION",
-      "liquidatedSide": "SHORT_LIQ",
-      "totalVolumeUsd": 171284,
-      "totalUsd": 171284,
-      "count": 10,
-      "timestamp": 1793391630663,
-      "time": 1793391630663,
-      "rationale": "Liquidation Cascade: $171k of SHORT_LIQ wiped out (10 orders). High-probability setup."
-    },
-    {
-      "id": "whale_1793391630657jls2",
-      "symbol": "ETHUSDT",
-      "side": "SHORT_LIQ",
-      "eventKind": "WHALE BUY",
-      "exchange": "BINANCE",
-      "price": 2241.86,
-      "qty": 6.5077,
-      "totalUsd": 14589,
-      "time": 1793391630543,
-      "isWhale": false
     }
   ],
   "debriefs": [
@@ -11456,13 +11456,13 @@
     }
   ],
   "telemetry": {
-    "totalScans": 10718,
+    "totalScans": 10721,
     "totalNewsChecked": 863,
-    "totalWhalesProcessed": 78602,
-    "totalCandlesAnalyzed": 322184,
+    "totalWhalesProcessed": 78610,
+    "totalCandlesAnalyzed": 322304,
     "totalPostMortems": 106,
     "peakBalance": 10075.85,
-    "cloudSavedAt": 1793392032069
+    "cloudSavedAt": 1793392056066
   },
   "performance": {
     "totalTrades": 106,
